@@ -1,0 +1,12 @@
+<Context docBase="Macintosh HD/Users/kamilwojas/IdeaProjects/TPO_S23878">
+    <Resource
+            name="jdbc/books"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://localhost:3306/books"
+            username="root"
+            password=""
+            maxActive="20"
+    />
+</Context>
